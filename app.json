@@ -1,0 +1,12 @@
+{
+  "name": "fakebook",
+  "displayName": "fakebook",
+  "expo": {
+    "name": "fakebook",
+    "slug": "fakebook",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
