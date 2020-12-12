@@ -12,6 +12,8 @@ import MessageScreen from './screen/MessageScreen'
 import NotificationScreen from './screen/NotificationScreen'
 import ProfileScreen from './screen/ProfileScreen'
 import PostScreen from './screen/PostScreen'
+import TestScreen from './screen/TestScreen'
+
 
 
 
@@ -105,8 +107,9 @@ if (!firebase.apps.length) {
 //   }
 // )
 const AppContainer = createStackNavigator ({
-  Home: HomeScreen,
-  Post: PostScreen
+  Test: TestScreen,
+  Post: PostScreen,
+  Home: HomeScreen
 })
 
 const AuthStack = createStackNavigator ({
